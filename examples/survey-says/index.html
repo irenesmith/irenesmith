@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content=""/>
+	<meta name="keywords" content=""/>
+	<meta name="author" content="Irene Smith" />
+	<meta name="copyright" content="Irene Smith" />
+	<title>Reading Survey</title>
+
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1 id="title">Reading Survey</h1>
+		<hr>
+	</header>
+	<div id="form-outer">
+	  <p id="description">
+	    What type of reading do you do? I'm not asking how often, but what. In other words,
+	    do you read Fantasy, Romance, Sports, or maybe you don't like fiction but you like
+	    to read "how to" books. Tell me what you like...
+	  </p>
+	  <form id="survey-form" method="GET" action="https://crossorigin.me/https://freecodecamp.com">
+	    <div class="rowTab">
+	      <div class="labels">
+	        <label id="name-label" for="name">* Name: </label>
+	      </div>
+	      <div class="rightTab">
+	        <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+	      </div>
+	    </div>
+	    <div class="rowTab">
+	      <div class="labels">
+	        <label id="email-label" for="email">* Email: </label>
+	      </div>
+	      <div class="rightTab">
+	        <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+	      </div>
+	    </div>
+	    <div class="rowTab">
+	      <div class="labels">
+	        <label id="number-label" for="age">* How many books do you read in a month? </label>
+	      </div>
+	      <div class="rightTab">
+	        <input type="number" name="age" id="number" min="0" max="100" class="input-field" placeholder="How many books do you read in a month?">
+	      </div>
+	    </div>
+	    <div class="rowTab">
+	      <div class="labels">
+	        <label for="currentPos">What do you like about reading fiction? </label>
+	      </div>
+	      <div class="rightTab">
+	      	<select id="dropdown" name="currentPos" class="dropdown">
+		      <option disabled value>Select an option</option>
+		      <option  value="escape">Escape the every day world</option>
+		      <option value="otherPeople">See other people's lives</option>
+		      <option value="otherPlaces">Visit other worlds</option>
+		      <option value="think">It makes me think</option>
+		      <option value="preferNonFiction">I only read non-fiction</option>
+		      <option value="other">Other</option>
+	    	</select>
+	      </div>
+	    </div>
+	    <div class="rowTab">
+	      <div class="labels">
+	        <label for="userRating">Can you choose a book by its cover?</label>
+	      </div>
+	      <div class="rightTab">
+	        <ul style="list-style: none;">
+	          <li class="radio"><label>Definitely<input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label></li>
+	          <li class="radio"><label>Maybe<input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label></li>
+	          <li class="radio"><label>Not sure<input name="radio-buttons" value="3"  type="radio" class="userRatings" ></label></li>
+	        </ul>
+	      </div>
+	    </div>
+	    <div class="rowTab">
+	      <p>
+	      	Sure, there are many, many more genres than I have listed here and I didn't mention non-fiction at all.
+	      	I love to read non-fiction too, but I'm only interested in fiction for this survey.
+	      </p>
+	      <div class="labels">
+	        <label for="preferences">What is your favorite genre?<br>(Check all that apply): </label>
+	      </div>
+	      <div class="rightTab">
+	        <ul id="preferences" style="list-style: none;">
+	          <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Mainstream</label></li>
+	          <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">Fantasy</li>
+	          <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Science Fiction</label></li>
+	          <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">Romance</label></li>
+	          <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userRatings">Mystery</label></li>
+	          <li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="userRatings">Horror</label></li>
+	          <li class="checkbox"><label><input name="prefer" value="7" type="checkbox" class="userRatings">Thriller</label></li>
+	          <li class="checkbox"><label><input name="prefer" value="8" type="checkbox" class="userRatings">Detective</label></li>
+	          <li class="checkbox"><label><input name="prefer" value="9" type="checkbox" class="userRatings">Humor</label></li>
+	          <li class="checkbox"><label><input name="prefer" value="10" type="checkbox" class="userRatings">Young Adult</label></li>
+	          <li class="checkbox"><label><input name="prefer" value="11" type="checkbox" class="userRatings">Sports</label></li>
+	        </ul>
+	      </div>
+	    </div>
+	    <div class="rowTab">
+	      <div class="labels">
+	        <label for="comments">Any Comments or Suggestions?</label>
+	      </div>
+	      <div class="rightTab">
+	        <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+	      </div>
+	    </div>
+	    <button id="submit" type="submit">Submit</button>
+	  </form>
+	</div>
+
+	<!-- End of HTML Content -->
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" type="text/javascript">
+</body>
+</html>

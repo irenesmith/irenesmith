@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Spinner</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet"> 
+	<link href="css/spinner.css" rel="stylesheet"  type="text/css">
+</head>
+<body>
+	<header>
+		<h1>Drawing on the Canvas</h1>
+		<p>Color: <span id="color-val"></span></p>
+		<div>
+			<p class="intro-text">
+				The drawing code in this example is based on code written by Jeff Duntemann in his book,
+				<cite>Delphi Programming Explorer</cite>. It uses jQuery to draw on an HTML5 canvas.
+				Each time you click the <strong>DRAW</strong> button, a different random
+				drawing will be added to the canvas. If you want to clear and start over again, click
+				the <strong>CLEAR</strong> button.
+			</p>
+		</div>
+		<button id="btnStart">DRAW</button>&nbsp;<button id="btnClear">CLEAR</button>
+	</header>
+	<div>
+		<canvas id="spinner" width='500' height='500'></canvas>
+		<!-- <canvas id="spinner"></canvas> -->
+	</div>
+	
+	<footer>
+		<p>
+			Return to Irene Smith's <a href="http://irenesmith.com">Home Page</a>
+		</p>
+		<p>
+			Copyright &copy; 2018, Irene Smith. Background by Oldiefan on Pixabay
+		</p>
+	</footer>
+
+	<!-- End of HTML Content -->
+	<script
+		src="http://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		crossorigin="anonymous"></script>
+	<script src="js/drawing.js"></script>
+	<script src="js/spinner.js"></script>
+</body>
+</html>

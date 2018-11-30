@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+/* General Styles */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
+  color:#333;
+  font-size:1.6rem;
+  background-color:white;
+}
+
+header {
+  margin:2em auto;
+  width:80%;
+  max-width:850px;
+}
+
+main {
+  margin:2rem auto;
+  width:80%;
+  max-width:800px;
+}
+
+main p {
+  line-height:1.5em;
+}
+
+main li {
+  margin-left: 2em;
+  line-height:1.5em;
+}
+
+.page-title {
+  font-family: 'Playfair Display', serif;
+  color: rgb(23,54,93);
+  border-bottom: 1px solid rgb(23,54,93);
+}
+
+address {
+  margin: 0.5rem auto;
+  text-align:center;
+}
+
+h2 {
+  margin:1rem 0;
+  font-family: 'Playfair Display', serif;
+  font-size:2.5rem;
+  color: rgb(79,129,189);
+}
+
+summary {
+  font-family: 'Playfair Display', serif;
+  color: rgb(79,129,189);
+}
+
+.employer {
+  display:flex;
+  justify-content: space-between;
+  margin-top:2rem;
+}
+
+.school {
+  margin-top:2rem;
+}
+
+#myPic {
+  display:block;
+  float:right;
+  width:15rem;
+  height:auto;
+  padding:1rem;
+  background-color:white;
+  border:1px solid #333;
+  transform:rotate(13deg);
+}
+
+strong {
+  font-weight: bold;
+  color:darkblue;
+}
+
+hr.style-two {
+  margin:2rem 0;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+dl {
+  line-height:1.5em;
+}
+
+dt {
+  font-weight:bold;
+  font-size:1.15em;
+}
+
+dd {
+  margin-left:1.5rem;
+  margin-bottom:0.5rem;
+}

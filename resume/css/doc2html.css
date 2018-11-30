@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+/* General Styles */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  color:black;
+  font-size:1.6rem;
+  background-color:white;
+}
+
+header {
+  margin:2em auto;
+  width:80%;
+  max-width:850px;
+}
+
+main {
+  margin:2rem auto;
+  width:80%;
+  max-width:850px;
+}
+
+main p {
+  line-height:1.5em;
+}
+
+main li {
+  margin-left: 2em;
+  line-height:1.5em;
+}
+
+.page-title {
+  font-family: 'Playfair Display', serif;
+  color: rgb(23,54,93);
+  border-bottom: 1px solid rgb(23,54,93);
+}
+
+address {
+  margin: 0.5rem auto;
+  text-align:center;
+}
+
+h2 {
+  margin-top:1rem;
+  font-family: 'Playfair Display', serif;
+  font-size:2rem;
+  color: rgb(79,129,189);
+}
+
+.res {
+  font-family: 'Playfair Display', serif;
+  font-size:1.6rem;
+  color: rgb(79,129,189);
+  font-style:italic;
+}
+
+.employer {
+  display:flex;
+  justify-content: space-between;
+  margin-top:2rem;
+}
+
+.school {
+  margin-top:2rem;
+}

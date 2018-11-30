@@ -91,3 +91,15 @@ footer p {
   text-decoration:underline;
   color:pink;
 }
+
+#sidebar ul {
+  list-style: none;
+}
+
+.round {
+  border-radius: 50%;
+  border:1px solid #333;
+  margin:2rem;
+  width:12rem;
+  height:12rem;
+}

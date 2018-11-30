@@ -1,0 +1,52 @@
+html { 
+  background: url('img/background-3317139_1920.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+	color: #333;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+}
+
+h1 {
+	font-family: 'Berkshire Swash', cursive;
+	margin: 10px auto;
+}
+
+canvas {
+	background-color: black;
+}
+
+header {
+	margin-bottom: 20px;
+}
+
+footer {
+	width:90%;
+	margin-left:5%;
+	position: absolute;
+	bottom: 10px;
+}
+
+footer p {
+	text-align: center;
+	margin: 0;	
+}
+
+button {
+	padding:5px;
+	background-color: #f5b3e1;
+	border-radius: 20%;
+}
+
+.intro-text {
+	width:500px;
+	text-align: left;
+	margin: 0 auto;
+	line-height: 115%;
+	margin-bottom: 1em;
+}

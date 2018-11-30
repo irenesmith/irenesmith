@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+body {
+  margin:0;
+}
+
+#container {
+  height:100%;
+  width:100%;
+  margin:0;
+  font-family: Lato;
+  font-weight:400;
+  font-size:16px;
+}
+
+#header {
+  position:fixed;
+  top:0;
+  display:flex;
+  flex-direction: row;
+  width:100%;
+  background-color:#333;
+}
+
+#header-img, .logo {
+  height: 50px;
+  width: auto;
+  margin-left:10px;
+  align-self:center;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content:space-between;
+  align-self:center;
+  margin-left:auto;
+  margin-right:15px;
+  text-transform: uppercase;
+}
+
+#nav-bar ul {
+  list-style: none;
+}
+
+#nav-bar ul li {
+  display: inline-block;
+  margin-left: 15px;
+  color:pink;
+  letter-spacing: 2px;
+}
+
+#nav-bar ul li a {
+  text-decoration:none;
+}
+
+#nav-bar ul li a:link,
+#nav-bar ul li a:visited {
+  color:pink;
+}
+
+#nav-bar ul li a:hover,
+#nav-bar ul li a: active {
+  text-decoration: underline;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: mediumorchid;
+  font-weight:700;
+  text-align:center;
+}
+
+.section-title::after {
+  display: block;
+  height: 2px;
+  background-color: mediumorchid;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+#home {
+  display:block;
+  width:80%;
+  max-width:960px;
+  margin: 0 auto;
+  margin-top:95px;
+}
+
+.book-cover {
+  margin:15px;
+}
+
+#about {
+  margin:0 auto;
+  background-color:antiquewhite;
+}
+
+#about p {
+  max-width:960px;
+  margin:0 auto;
+  padding-bottom:15px;
+  width: 30rem;
+  line-height: 1.25rem;
+}
+
+#sample {
+  width:100%;
+}
+
+#video {
+  max-width: 80%;
+  width:500px;
+  height:auto;
+  margin: 0 auto;
+}
+
+#contact {
+  background-color: antiquewhite;
+  padding:30px;
+}
+
+#contact form {
+  width:33%;
+  min-width: 350px;
+  margin: 0 auto;
+}
+#contact label {
+  font-weight:bold;
+}
