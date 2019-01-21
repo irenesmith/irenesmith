@@ -34,20 +34,26 @@ h1 {
   margin:0;
   font-family: 'Poiret One', cursive;
   letter-spacing: 2px;
+  text-indent:0;
 }
 
 main {
-  grid-column: 2;
   width:80%;
   max-width:850px;
-  margin:0 auto;
+  margin:2rem auto;
   display:grid;
-  grid-template-columns: 1fr 3fr;
+}
+
+main p {
+  text-indent:3rem;
+  margin-top:0;
+  margin-bottom:0.5rem;
+  line-height:1.5em;
 }
 
 footer {
   width:100%;
-  position:absolute;
+  position:fixed;
   bottom:0;
   left:0;
   display:flex;
@@ -63,14 +69,6 @@ footer {
 
 footer p {
   margin:0;
-}
-
-#menu {
-  background-color:blue;
-}
-
-#content {
-  background-color:lightblue;
 }
 
 #sidebar {
@@ -94,6 +92,7 @@ footer p {
 
 #sidebar ul {
   list-style: none;
+  line-height:1.5em;
 }
 
 .round {
