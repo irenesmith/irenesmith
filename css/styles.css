@@ -38,9 +38,10 @@ h1 {
 }
 
 main {
+  align-self:start;
   width:80%;
-  max-width:850px;
-  margin:2rem auto;
+  max-width:60rem;
+  margin:5rem;
   display:grid;
 }
 
@@ -48,7 +49,14 @@ main p {
   text-indent:3rem;
   margin-top:0;
   margin-bottom:0.5rem;
+  letter-spacing:1px;
   line-height:1.5em;
+}
+
+main header {
+  display:flex;
+  justify-content: flex-start;
+  align-items:center;
 }
 
 footer {
@@ -98,7 +106,7 @@ footer p {
 .round {
   border-radius: 50%;
   border:1px solid #333;
-  margin:2rem;
+  margin:0 2rem 2rem 0;
   width:12rem;
   height:12rem;
 }
