@@ -1,6 +1,6 @@
 ﻿body {
     font-family:Arial, Helvetica, sans-serif;
-    background: url('../images/tipster_bkg.jpg') no-repeat center center fixed;
+    background: url('../images/tipster_2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -13,8 +13,6 @@
     margin:5%;
     background-color:darkgreen;
     border-radius:25px;
-    -webkit-background-radius:25px;
-    -moz-background-radius:25px;
     border:1px solid darkgoldenrod;
 }
 
@@ -23,8 +21,6 @@
     padding: 15px;
     background-color:palegoldenrod;
     border-radius:25px;
-    -webkit-background-radius:25px;
-    -moz-background-radius:25px;
     border:1px solid black;
 }
 
