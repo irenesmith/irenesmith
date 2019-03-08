@@ -110,3 +110,33 @@ footer p {
   width:12rem;
   height:12rem;
 }
+
+#irene-camera {
+  width:25%;
+  height:auto;
+  border:1px solid black;
+  box-shadow: 3px 3px 5px #333;
+  margin-right:1rem;
+  float:right;
+}
+
+#my-games {
+  width:66%;
+  height:auto;
+  margin:1rem auto;
+}
+
+#first-pub {
+  width:25%;
+  height:auto;
+  float:left;
+  margin-right:1rem;
+}
+
+.desaturate {
+  filter:saturate(0);
+}
+
+.desaturate:hover {
+  filter:none;
+}
