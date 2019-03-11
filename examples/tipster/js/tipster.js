@@ -2,7 +2,9 @@
     initForm();
 });
 
-$("#cmdCalc").click(function () {
+$("#cmdCalc").click(function (event) {
+    event.preventDefault();
+    
     var meal = parseFloat($("#txtSubTotal").val());
     var diners = parseFloat($("#txtNumDiners").val());
     var percent = parseFloat($("#txtTipPercent").val());
