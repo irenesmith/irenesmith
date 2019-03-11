@@ -1,15 +1,25 @@
-﻿body {
+﻿*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif;
-    background: url('../images/tipster_2.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    font-size:1.6rem;
+    background: url('../images/tipster_3.jpg') no-repeat center center fixed;
     background-size: cover;
-    font-size:1em;
 }
 
 #outer {
-    width:500px;
+    width:50rem;
     margin:5%;
     background-color:darkgreen;
     border-radius:25px;
@@ -21,7 +31,74 @@
     padding: 15px;
     background-color:palegoldenrod;
     border-radius:25px;
-    border:1px solid black;
+    border:1px solid firebrick;
+}
+
+#tip-form {
+    display:flex;
+    flex-direction: column;
+}
+
+.row {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.col-left {
+    flex-direction:column;
+    flex:1 1 0;
+}
+
+.col-right {
+    flex-direction:column;
+    flex:1 1 0;
+    align-items:stretch;
+}
+
+input {
+    margin-bottom:1rem;
+    padding:0.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.6rem;
+    text-align:right;
+    border:none;
+    border-radius:0.5rem;
+}
+
+label {
+    display:block;
+    padding:1rem 0;
+}
+
+.buttons {
+    margin-top:1rem;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width:10rem;
+    padding: 0.5rem;
+    color: #faf7ff;
+    text-transform: uppercase;
+    border-radius:5%;
+    border:none;
+}
+
+.btn:hover {
+    border:1px solid darkgoldenrod;
+    box-shadow: 0.15rem 0.15rem rgba(51,51,51,0.25);
+}
+
+.okBtn {
+    background-color: #5cb85c;
+}
+
+.cancelBtn {
+    background-color: #f0ad4e;
 }
 
 h1 {
@@ -31,9 +108,11 @@ h1 {
 
 footer {
     position:fixed;
+    width:100%;
     bottom:5px;
     left:15px;
     color:white;
+    text-align:center;
 }
 
 footer a {
@@ -49,4 +128,18 @@ footer a:hover {
 
 footer a:visited {
     color:yellow;
+}
+
+/* Media Queries */
+@media screen and (max-height: 400px) {
+    #outer {
+        margin:0.5rem auto;
+    }
+
+    footer {
+        position:relative;
+        color:white;
+        text-align:center;
+    }
+
 }
