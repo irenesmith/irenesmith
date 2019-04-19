@@ -140,3 +140,8 @@ footer p {
 .desaturate:hover {
   filter:none;
 }
+
+.employment-history {
+  display:block;
+  max-width:60rem;
+}
