@@ -1,0 +1,113 @@
+html {
+  font-size:62%;
+  height:100%;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:1.6rem;
+	color:#000080;
+	background-color:#c8c7ff;
+	background-image:url(../lesson12/bkg1.jpg);
+	margin:64px;
+}
+
+.inner {
+	border: #cc0000 4px dotted;
+  background-image:url(../lesson12/bkg2.jpg);
+  padding: 25px;
+}
+
+.middle {
+	border: #cc0000 4px dotted;
+  background-image:url(../lesson12/bkg2.jpg);
+  padding:10px;
+}
+
+.outer {
+	border: #ffff80 4px dotted;
+  background-image:url(../lesson12/bkg2.jpg);
+  padding:50px;
+}
+
+.title {
+  display:block;
+  width:219px;
+  height:165px;
+  margin:0.5rem auto;
+}
+
+.bar {
+  display:block;
+  width:247px;
+  height:44px;
+  margin:0.5rem auto;
+}
+
+main {
+  max-width:55rem;
+  line-height:1.5;
+  margin:0.5rem auto;
+}
+
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18pt;
+	text-align:center;
+}
+
+#message {
+  width:60%;
+  height:3rem;
+  font-size:2rem;
+  font-family: 'Codystar', cursive;
+  background-color:black;
+  color:yellow;
+  border:1px solid #000080;
+  margin:0.5rem auto;
+  overflow:hidden
+}
+
+a:active {
+	COLOR: #800000;
+}
+
+a:hover {
+	color: #800000;
+	cursor: crosshair;
+	border-style: dotted;
+	border-color:#800000;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 4px;
+	border-left-width: 0px;
+}
+	
+a:link {
+	color: #800000;
+}
+
+a:visited {
+	color: #cc0000;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+nav {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+
+nav .btn {
+  display:block;
+  width:100px;
+  height:40px;
+  margin:1rem;
+}
+
+footer {
+  text-align:center;
+}

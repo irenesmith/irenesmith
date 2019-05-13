@@ -1,0 +1,54 @@
+html {
+  font-size:62%;
+  height:100%;
+}
+
+body {
+	font-family: SF Gothican, script;
+  font-size:2rem;
+	color:#000000;
+	background-color:#e0d0a4;
+	background-image:url(../lesson7/bkgb1.jpg);
+	margin:50px;
+}
+
+.outer-border {
+  background-image: url(../lesson7/bkgb2.jpg);
+  padding:50px;
+}
+
+.inner-border {
+  background-image: url(../lesson7/bkgb3.jpg);
+  padding:10px;
+}
+
+main {
+  max-width:55rem;
+  margin: 0.5rem auto;
+}
+
+main p {
+  line-height:1.5;
+}
+
+h1 {
+	font-size: 48pt;
+	text-align:center;
+}
+
+a:link {
+	color: #800000;
+}
+
+a:visited {
+	color: #000080;
+}
+
+a:hover {
+	color: #800000;
+	
+}
+
+a:active {
+	color: #800000;
+}

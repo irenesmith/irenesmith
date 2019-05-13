@@ -1,0 +1,64 @@
+html {
+  font-size:62%;
+  height:100%;
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  line-height:1.5;
+	color: #c5946c;
+	background-color: #000000;
+	background-image: url(../lesson7/border1.jpg);
+	background-repeat:repeat-y;
+	margin-left:165px;
+}
+
+table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #c5946c;
+}
+
+a:link {
+	color: #c00000;
+}
+
+a:visited {
+	color: #d9a6fe;
+}
+
+a:hover, a:active {
+	color: #c00000;
+	
+}
+
+.title {
+  display:block;
+  width:347px;
+  height:182px;
+  margin:0.5rem auto;
+}
+
+main {
+  max-width:55rem;
+  margin:0.5rem auto;
+}
+
+.bar {
+  display:block;
+  margin:1rem auto;
+  width:316px;
+  height:14px;
+}
+
+nav {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly
+}
+
+nav .btn {
+  width:65px;
+  height:27px;
+}

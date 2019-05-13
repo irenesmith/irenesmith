@@ -1,0 +1,77 @@
+html {
+  font-size:62%;
+  height:100%;
+}
+
+body {
+  font-family:Arial, sans-serif;
+  font-size:1.6rem;
+  color:cornsilk;
+  background-image: url(../lesson7/christmas-2892235_1920.png);
+  background-size:cover;
+}
+
+a:link {
+  color: #e7c9a3;
+  font-weight:bold;
+  text-decoration:underline;
+}
+
+a:visited {
+  color:#e7c9a3;
+  text-decoration:none;
+}
+
+a:hover, a:active {
+  color:pink;
+  font-weight:bold;
+  text-decoration:pink wavy underline overline;
+}
+
+main {
+  width:50%;
+  margin:50px;
+  line-height:1.5;
+}
+
+main p {
+  max-width:55rem;
+  margin:1rem auto;
+}
+
+h1, h2 {
+  font-family: 'Mountains of Christmas', cursive;
+  text-align: center;
+  margin-bottom:0;
+}
+
+h1 {
+  font-size:300%;
+}
+
+h2 {
+  font-size:150%;
+}
+
+nav {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+
+nav a:link,
+nav a:visited,
+nav a:hover,
+nav a:active {
+  margin:1rem;
+  padding:1rem;
+  border:1px solid green;
+  color:green;
+  background-color:lightgreen;
+  text-decoration:none;
+  border-radius:5px;
+}
+
+footer {
+  text-align:center;
+}

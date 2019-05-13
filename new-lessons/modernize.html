@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modernizing a design</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="css/modernize.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Modernizing a website</h1>
+      <p>
+        Here is a discussion of what you need to change if you are "lucky"
+        enough to have to update an old website. Some of the things you
+        <em>must</em> do because the existing features are deprecated or
+        removed altogether. Other's are just best practices that probably
+        didn't exist ten or fifteen years ago.
+      </p>
+    </header>
+    <hr>
+    <h2>Steps to follow</h2>
+    <h3>Step 1: Remove deprecated attributes and tags</h3>
+    <p>
+      Start by removing deprecated attributes and tags. Define fonts,
+      width and height, margins, and borders using CSS instead of attributes
+      or tags. This has the huge advantage that if you change your mind, you
+      can change it anywhere with a single edit.
+    </p>
+    <p>
+      This means that:
+    </p>
+    <code>
+      &lt;p align="center"&gt;&lt;font face="Times New Roman"&gt;<br>
+      &nbsp;&nbsp;This is a paragraph<br>
+      &lt;/font&gt;&lt;/p&gt;<br>
+    </code>
+    <p>
+        will become:
+    </p>
+    <code>
+      &lt;p class="centered"&gt;<br>
+      &nbsp;&nbsp;This is a paragraph<br>
+      &lt;/p&gt;<br>
+    </code>
+    <p>with this CSS:</p>
+    <code>
+      body {<br>
+      &nbsp;&nbsp;font-family: "Times New Roman", "serif";<br>
+    }<br>
+    <br>
+    p.centered {<br>
+    &nbsp;&nbsp;text-align:center;<br>
+    }<br>
+    </code>
+    <p>
+      This looks like more code but, if you had six paragraphs and each of
+      them had the same HTML, you're repeating that code over and over
+      while the modernized page has the definition for fonts and alignment
+      only once. And if, six months from now, you decide you would rather
+      use Arial and have the paragraphs right-aligned, you would have to
+      make the change in all six paragraphs. Now imagine having six to ten
+      paragraphs on fifty different web pages. What are the chances that
+      you will forget to change at least one?
+    </p>
+    <p>
+      The <code>img</code> tag now requires an <code>alt</code> attribute. The
+      contents of the attribute should be a description of the image. However,
+      if the image is purely decorative, leaving it empty <code>alt=""</code>
+      descriptive software won't bother mentioning it. Sor, for example, it
+      means nothing to a vision-impaired visitor to know that you have a
+      separator bar on the page. That's why all of the example bar images have
+      an <code>alt</code> tag set to the empty string.
+    </p>
+    <h3>Step 2: Consider your fonts and color palette</h3>
+    <p>
+      Early web pages sometimes used some bizarre color combinations. Not only
+      text on a solid colored background, but text on super-busy patterns. 
+    </p>
+    <p>
+      Another difficulty with early web pages was the size of the text.
+    </p>
+    <p>
+      Consider this combination. How easy is it to read this text?
+    </p>
+    <div class="bizarre">
+      How would you like to read a whole page of text this size and with this
+      color combination? This type is 10 points high, a common font size back
+      in the day.
+    </div>
+    <p>
+      I admit that I deliberately used a pair of colors with less than optimal
+      content. And the size is small, but I have actually seen websites just
+      like this. Be glad that I didn't make it blink or something!
+    </p>
+
+    <h3>Step 3: Replace table layout</h3>
+    <p>
+      Unless you are actually displaying tables of data, replace tables with
+      an alternative layout. Use divs and CSS grid or CSS flexbox layout
+      instead. Tables slow down page load because the browser has to render
+      the entire table. Also, tables quickly get out of hand and you end up
+      with multiple nested tables. If nothing else, it makes your marked up
+      source code more difficult to read.
+    </p>
+    <h3>Validate your markup!</h3>
+    <p>
+      The W3C provides tools to validate your HTML and CSS markup. The tools
+      are free and easy to use. Even if you haven't uploaded your files to the
+      server, you can still use the HTML and CSS validation tools. Here are the
+      links:
+    </p>
+    <ol>
+      <li><a href="https://validator.w3.org/#validate_by_uri">W3C Markup Validation Service</a></li>
+      <li><a href="https://jigsaw.w3.org/css-validator/#validate_by_uri">CSS Validation Service</a></li>
+    </ol>
+  </main>
+</body>
+</html>

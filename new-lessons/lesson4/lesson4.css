@@ -1,0 +1,87 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  line-height:1.5;
+	color: #000000;
+	background-color: #f5f190;
+  background-image: url(../lesson4/bkg.jpg);
+  background-repeat: repeat-y;
+	margin:0;
+}
+
+main {
+  margin-left:15rem;
+	padding:2rem;
+}
+
+main p {
+	max-width:55rem;
+	margin:0.5rem auto;
+}
+
+main ol {
+  max-width:50rem;
+  margin:0.5rem auto;
+}
+
+a:link {
+	color: #d22e0b;
+}
+
+a:visited {
+	color: #4040ff;
+}
+
+a:hover {
+	color: #d22e0b;
+	
+}
+
+a:active {
+	color: #d22e0b;
+}
+
+.title {
+  display:block;
+  width:390px;
+	height:auto;
+	margin:0.5rem auto;
+}
+
+.centered {
+	text-align:center;
+}
+
+.palette {
+  display:block;
+  width:156px;
+  height:32px;
+  margin:0 auto;
+}
+
+.bar {
+  display:block;
+  width:386px;
+  height:68px;
+  margin:0 auto;
+}
+
+nav {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+
+nav .btn {
+  width:143px;
+  height:55px;
+}
+
+footer {
+  margin:0.5rem;
+  text-align:center;
+}

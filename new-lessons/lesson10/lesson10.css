@@ -1,0 +1,77 @@
+html {
+  font-size:62%;
+  height:100%;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:1.6rem;
+	color:#000000;
+	background-color:#e0d0a4;
+	background-image:url(../lesson10/bkg1.jpg);
+	margin:75px;
+}
+
+.outer-border {
+  background-image:url(../lesson10/bkg2.jpg);
+  padding:10px;
+}
+
+.inner-border {
+  background-image:url(../lesson10/bkg3.jpg);
+  padding:25px;
+}
+
+main {
+  max-width:55rem;
+  margin:0.5rem auto;
+  line-height:1.5;
+}
+
+h1 {
+	font-family: Times New Roman, Times, serif;
+	font-size: 18pt;
+	text-align:center;
+}
+
+.title {
+  display:block;
+  width:204px;
+  height:89px;
+  margin:0.5rem auto;
+}
+
+.bar {
+  display:block;
+  width:243px;
+  height:47px;
+  margin:0.5rem auto;
+}
+
+nav {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly
+}
+
+nav .btn {
+  width:99px;
+  height:48px;
+}
+
+a:link {
+	color: #800000;
+}
+
+a:visited {
+	color: #000080;
+}
+
+a:hover {
+	color: #800000;
+	
+}
+
+a:active {
+	color: #800000;
+}

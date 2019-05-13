@@ -1,0 +1,55 @@
+html {
+  font-size:62%;
+  height:100%;
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:1.6rem;
+	color: #f8d37b;
+	background-color: #0b497a;
+	margin:0;
+	padding:15px;
+}
+
+a:active {
+	color: #fc9f7f;
+}
+
+a:hover {
+	color: #fc9f7f;
+	
+}
+
+a:link {
+	color: #fc9f7f;
+}
+
+a:visited {
+	color: #acc6aa;
+}
+
+main {
+  max-width:60rem;
+  line-height:1.5;
+}
+
+heading {
+	display:flex;
+	width:100%;
+	justify-content: space-around;
+	margin-bottom:4rem;
+}
+
+.content {
+	display:flex;
+	width:100%;
+	justify-content:space-between;
+}
+
+.bar {
+  display:block;
+  width:322px;
+  height:36px;
+  margin:0.5rem auto;
+}

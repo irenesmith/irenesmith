@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio Lesson 4 - Bordered Background Set</title>
+
+  <link rel="stylesheet" href="lesson4/lesson4.css">
+</head>
+<body>
+	<main>
+    <header>
+      <img class="title" src="lesson4/title.jpg" alt="Lesson 4 - Bordered Background Set" />
+      <h1 class="centered">Lesson 4<br>
+        Bordered Background Set</h1>
+    </header>
+    <p>
+      This time, the object of the lesson is to create a set that uses a
+      bordered background. The one I've created here is based on a piece of a
+      graphic from the same graphics collection, "Multimedia Graphics Pack"
+      from Media Graphics, that I used for the set in lesson three. The bucket
+      of popcorn was actually part of a much larger graphic but I cut away the
+      rest of the picture and just used the popcorn. My intention was to give
+      this page the feeling of a circus or carnival.
+    </p>
+    <img class="bar" src="lesson4/bar.jpg" alt="">
+    <p>
+      The lesson asked us to make a web set with a bordered background, a title
+      graphic, a separator bar, and three buttons as before. In order to update
+      the set to follow modern web design practices, these are the changes I
+      made:
+    </p>
+    <ol>
+      <li>
+        The background graphic for this set was originally 1600 pixels wide.
+        The original lesson called for a width of 1050 pixels but even back
+        in 2006, I use a much higher screen resolution. These days, even 1600
+        pixels isn't wide enough. Thankfully, CSS gives us a better way to make
+        a border background that doesn't repeat.
+      </li>
+      <li>
+        A bordered background layout used to be created using a table and a
+        transparent 1x1 pixel image. The transparent image prevented the first
+        (empty) column of the table from collapsing. I can't remember if Firefox
+        collapsed empty table columns but I know that good old IE did. The
+        "transparent pixel trick" took that tiny image and set its width to the
+        width you wanted to move the text to the right and avoid the border.
+        Since it is transparent, it would, it wasn't visible in your layout.
+        Modern CSS provides us with an easier way to move the text off the
+        border. Add a new rule like this:<br>
+        <br>
+        <code><em>background-repeat: repeat-y;</em></code><br>
+        <br>
+        Using <em>repeat-y</em> for your background means that it only repeats
+        vertically instead of vertically and horizontally.
+      </li>
+    </ol>
+    <div class="centered">
+      <nav>
+        <a href="lesson3.html"><img class="btn" src="lesson4/back.jpg" alt="Back"></a>
+        <a href="index.html"><img class="btn" src="lesson4/home.jpg" alt="Home"></a>
+        <a href="lesson5.html"><img class="btn" src="lesson4/next.jpg" alt="Next"></a><br />
+        <a href="mailto:webmaster@irenesmith.com"><img class="btn" src="lesson4/email.jpg" alt="E-Mail me at: webmaster@irenesmith.com"></a>
+      </nav>
+      <img class="bar" src="lesson4/bar.jpg" alt="">
+      <footer>Text and graphics Copyright &copy; 2006, 2019, Irene Smith. All rights reserved.</footer>
+    </div>
+	</main>
+</body>
+</html>

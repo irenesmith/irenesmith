@@ -1,0 +1,69 @@
+html {
+  font-size:62%;
+  height:100%;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:1.6rem;
+	color:#ffff80;
+	background-color:#000000;
+	margin:0;
+}
+
+.toprow {
+	background-image: url(../lesson14/top.jpg);
+	height:150px;
+}
+
+.middlerow {
+	background-image: url(../lesson14/middle.jpg);
+	padding-left:25px;
+	padding-right:25px;
+}
+
+.bottomrow {
+	background-image: url(../lesson14/bottom.jpg);
+	height:175px;
+}
+
+.contenttable {
+  max-width:600px;
+  line-height:1.5;
+  margin:0.5rem auto;
+}
+
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18pt;
+	text-align:center;
+}
+
+a:active {
+	color: #ffc0ff;
+}
+
+a:hover {
+	color: #ffc0ff;
+	cursor: crosshair;
+}
+	
+a:link {
+	color: #ffc0ff;
+}
+
+a:visited {
+	color: #ffffc0;
+}
+
+.linklist {
+	font-size:12pt;
+	text-align:center;
+}
+
+.bar {
+  display:block;
+  width:213px;
+  height:30px;
+  margin:0.5rem auto;
+}

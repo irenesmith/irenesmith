@@ -1,0 +1,97 @@
+html {
+  overflow-y:scroll;
+  scrollbar-color: red #ccc;
+  scrollbar-width: auto;
+  font-size:62%;
+  height:100%;
+}
+
+body {
+  margin:0;
+	padding:64px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:1.6rem;
+	color:#000000;
+	background-color:#cccccc;
+	background-image:url(../lesson9/bkg1.jpg);
+}
+
+.outside-border {
+  background-image:url(../lesson9/bkg2.jpg);
+  padding:50px;
+}
+
+.inside-border {
+  background-color: #ccc;
+  padding:25px;
+}
+
+main {
+  max-width:55rem;
+  margin:0.5rem auto;
+  line-height:1.5;
+}
+
+h1 {
+	font-family: Times New Roman, Times, serif;
+	font-size: 18pt;
+	text-align:center;
+}
+
+.title {
+  display:block;
+  width:361px;
+  height:91px;
+  margin:0.5rem auto;
+}
+
+a:link {
+	color: #c00000;
+}
+
+a:visited {
+	color: #000080;
+}
+
+a:hover {
+	color: #c00000;	
+}
+
+a:active {
+	color: #c00000;
+}
+
+.bar {
+  display:block;
+  width:243px;
+  height:84px;
+  margin: 0.5rem auto;
+}
+
+nav {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+
+nav .btn {
+  width:154px;
+  height:83px;
+  margin-right:1rem;
+}
+
+#a0 {position:absolute; left:-24; top:-24; width:9; height:25;clip:rect(0 9 9 0);z-index:2000;}
+#a1 {position:absolute; left:96; top:-24; width:9; height:25;clip:rect(0 9 9 0);z-index:2000;}
+#a2 {position:absolute; left:216; top:-24; width:9; height:25;clip:rect(0 9 9 0);z-index:2000;}
+#a3 {position:absolute; left:338; top:-24; width:9; height:25;clip:rect(0 9 9 0);z-index:2000;}
+#a4 {position:absolute; left:460; top:-24; width:9; height:25;clip:rect(0 9 9 0);z-index:2000;}
+#a5 {position:absolute; left:640; top:-24; width:9; height:25;clip:rect(0 9 9 0);z-index:2000;}
+#a6 {position:absolute; left:-24; top:-24; width:9; height:25;clip:rect(0 9 9 0);z-index:2000;}
+#a7 {position:absolute; left:200; top:-24; width:9; height:25;clip:rect(0 9 9 0);z-index:2000;}
+#a8 {position:absolute; left:300; top:-24; width:9; height:25;clip:rect(0 9 9 0);z-index:2000;}
+#a9 {position:absolute; left:600; top:-24; width:9; height:25;clip:rect(0 9 9 0);z-index:2000;}
+
+footer {
+  margin:0.5rem;
+  text-align:center;
+}

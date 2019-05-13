@@ -1,0 +1,89 @@
+html {
+  font-size:62%;
+  height:100%;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:1.6rem;
+	color:#e1d10a;
+	background-color:#8d3e15;
+	background-image:url(../lesson11/bkg1.jpg);
+	margin:64px;
+}
+
+.border {
+  background-image:url(../lesson11/bkg2.jpg);
+	border:8px ridge #e78957;
+	border-radius:2%;
+	/* border-image: linear-gradient(#e78957, #662d0e) 27 15px; */
+}
+
+.border-narrow {
+  padding: 10px;
+}
+
+.border-medium {
+  padding: 25px;
+}
+
+.border-wide {
+  padding: 50px;
+}
+
+main {
+	max-width:55rem;
+	margin:0.5rem auto;
+}
+
+.title {
+  display:block;
+  width:245px;
+  height:363px;
+  margin:0.5rem auto;
+}
+
+.bar {
+	display:block;
+	width:363px;
+	height:48px;
+	margin:0.5rem auto;
+}
+
+p {
+	color:#e1d10a;
+}
+
+nav {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly
+}
+
+nav .btn {
+  width:123px;
+  height:70px;
+}
+
+h1 {
+	font-family: Times New Roman, Times, serif;
+	font-size: 18pt;
+	text-align:center;
+}
+
+a:active {
+	color: #80ff80;
+}
+
+a:hover {
+	color: #80ff80;
+	
+}
+
+a:link {
+	color: #80ff80;
+}
+
+a:visited {
+	color: #e78957;
+}

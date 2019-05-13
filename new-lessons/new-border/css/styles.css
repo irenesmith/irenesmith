@@ -1,0 +1,61 @@
+html {
+  font-size:62%;
+  height:100%;
+}
+
+body {
+  display:flex;
+  flex-direction: row;
+  margin:0;
+  padding:0;
+  font-family: Arial, sans-serif;
+  font-size:1.6rem;
+  background:white url(../img/blue_border_01.png) repeat-y;
+  color:#003195;
+}
+
+main {
+  max-width:50rem;
+  margin-left:3rem;
+  line-height:1.5em;
+}
+
+h1 {
+  font-family: 'Sofia', cursive;
+}
+
+footer {
+  text-align: center;
+}
+
+#bkg-example {
+  display:block;
+  width:140px;
+  height:10px;
+  margin:1rem auto;
+  border:1px solid black;
+}
+
+nav {
+  display:block;
+  margin:1rem;
+  padding:0;
+  width:10rem;
+  line-height:2em;
+}
+
+nav a:link,
+nav a:visited {
+  margin:0;
+  color:white;
+  text-decoration:none;
+}
+
+nav a:hover,
+nav a:active {
+  margin:0;
+  padding:3px;
+  background-color:yellow;
+  color: #003195;
+  text-decoration:none;
+}

@@ -1,0 +1,63 @@
+html {
+  font-size:62%;
+  height:100%;
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:1.6rem;
+	color:#000000;
+	background-color:#e0d0a4;
+	background-image:url(../lesson7/bkgc2.jpg);
+	margin:50px;
+}
+
+table {
+	font-size:10pt;
+	width:100%;
+	height:100%;
+}
+
+h1 {
+	font-size: 48pt;
+	text-align:center;
+}
+
+a:link {
+	color: #800000;
+}
+
+a:visited {
+	color: #000080;
+}
+
+a:hover {
+	color: #800000;
+}
+
+a:active {
+	color: #800000;
+}
+
+main {
+  max-width:55rem;
+  margin:0.5rem auto;
+}
+
+main p {
+  line-height:1.5;
+}
+
+.outer-border {
+  background-image: url(../lesson7/bkgc1.jpg);
+  padding:50px;
+}
+
+.inner-border {
+  background-image: url(../lesson7/bkgc2.jpg);
+  padding:10px;
+}
+
+.centered {
+  text-align:center;
+}

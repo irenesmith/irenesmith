@@ -1,0 +1,59 @@
+html {
+  font-size:62%;
+  height:100%;
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.6rem;
+	color: #292011;
+	background-color: #f0dec6;
+	background-image: url(../lesson6/fancy_top.jpg);
+	background-repeat:repeat-x;
+	margin-top:170px;
+}
+
+main {
+  max-width:55rem;
+  line-height:1.5;
+  margin:0.5rem auto;
+}
+
+a:link {
+	color: #873519;
+}
+
+a:visited {
+	color: #b19353;
+}
+
+a:hover {
+	color: #873519;
+	
+}
+
+a:active {
+	color: #873519;
+}
+
+.bar {
+  display:block;
+  width:320px;
+  height:43px;
+  margin:0.5rem auto;
+}
+
+.centered {
+  text-align:center;
+}
+
+nav {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly
+}
+
+nav .btn {
+  width:133px;
+  height:43px;
+}

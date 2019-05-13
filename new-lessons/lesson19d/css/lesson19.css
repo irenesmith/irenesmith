@@ -1,0 +1,44 @@
+html {
+  font-size:62%;
+  height:100%;
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:black;
+	background-color: #f5eacd;
+	background-image:url(bkg1.jpg);
+	margin:25px;
+}
+
+h1 {
+	font-family: Times New Roman, Times, serif;
+	font-size: 18pt;
+	background-color: #ffffff;
+}
+
+h2 {
+	font-family: Times New Roman, Times, serif;
+	font-size: 14pt;
+	background-color: #ffffff;
+}
+
+a:link {
+	color: #f17c55;
+	text-decoration:none;
+}
+
+a:visited {
+	color: #0b5673;
+	text-decoration:none;
+}
+
+a:hover {
+	color: #f17c55;
+	text-decoration:none;	
+}
+
+a:active {
+	color: #f17c55;
+	text-decoration:none;
+}
