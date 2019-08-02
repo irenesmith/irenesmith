@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Simple Paint - A JavasScript Example</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Simple Paint</h1>
+    <p>A simple example od drawing with the mouse</p>
+  </header>
+  <main>
+    <div id="sidebar">
+      <h2>Commands</h2>
+      <label for="lineWidth">Line width:</label>
+      <input type="number" min="1" max="10" name="lineWidth" id="lineWidth" value="1">
+    </div>
+    <div id="container">
+      <canvas>
+        Sorry, your browser doesn't support html5 canvas
+      </canvas>
+    </div>
+  </main>
+  <footer>Copyright &copy; 2019, Irene Smith. All rights reserved.</footer>
+
+  <!-- End of HTML content -->
+  <script src="js/commands.js"></script>
+  <script src="js/drawing.js"></script>
+</body>
+</html>
