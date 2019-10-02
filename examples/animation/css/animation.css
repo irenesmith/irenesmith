@@ -1,0 +1,66 @@
+@keyframes boxAnimation {
+  0% {
+    top:0;
+    left:0;
+  }
+
+  25% {
+    left: calc(100% - 155px);
+    top:0;
+  }
+
+  50% {
+    left: calc(100% - 155px);
+    top: calc(100% - 155px);
+  }
+
+  75% {
+    left:0;
+    top: calc(100% - 155px);
+  }
+
+  100% {
+    left:0;
+    top:0;
+  }
+}
+
+@keyframes blinkingAnimation {
+  0% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+.box {
+  animation-delay:2s;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: boxAnimation;
+  animation-timing-function:ease-in-out;
+  background-color: #8c1515;
+  border: 3px solid #333;
+  box-shadow: 3px 3px 5px #333;
+  height:150px;
+  left:0;
+  position:absolute;
+  top:0;
+  width:150px;
+}
