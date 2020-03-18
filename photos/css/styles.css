@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Rye&display=swap');
+
+:root {
+  --clr-background: #b19f9e;
+  --clr-active: #a16e83;
+  --clr-highlight: #cebc81;
+  --clr-accent: #479761;
+  --clr-primary: #479761;
+  --clr-light: #fff;
+  --clr-dark: rgb(25, 24, 26);
+
+  --clr-light-shade: #f9f6f7;
+  --clr-light-accent: #a8a246;
+  --clr-main-brand: #659fbb;
+  --clr-dark-accent: #8955ac;
+  --clr-dark-shade: #0b5567;
+
+  --el-wide: 70rem;
+  --el-narrow: 40rem;
+  --el-width: 54rem;
+  --el-shadow: 2px 2px 5px rgba(25, 24, 26, 0.7);
+}
+
+/* ---------------------------
+   Global Styles
+   --------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  background-color: var(--clr-background);
+  color: var(--clr-dark-shade);
+  font-size: 1.6rem;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1.6rem;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+h1 {
+  color:maroon;
+  font-size: 5rem;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  text-align:center;
+}
+
+footer {
+  background-color: var(--clr-light);
+  border-top:1px solid var(--clr-dark);
+  bottom:0;
+  left:0;
+  position:fixed;
+  text-align: center;
+  width:100%;
+}
+
+.photo-grid {
+  display:grid;
+  /* grid-auto-columns: max-content; */
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap:15px;
+  margin:1rem;
+}
+
+.photo-grid img {
+  border: 10px solid white;
+  max-width:100%;
+  object-fit: contain;
+  outline: 1px solid black;
+}
