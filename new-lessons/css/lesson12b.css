@@ -1,0 +1,61 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #000080;
+    background-color: #c8c7ff;
+    background-image: url(lesson12/bkg1.jpg);
+    margin: 64px;
+}
+
+.inner {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #000080;
+    border: #cc0000 5px double;
+    background-image: url(lesson12/bkg2.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+.outer {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #000080;
+    border: #ffff80 2px double;
+    background-image: url(lesson12/bkg2.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+.odd {
+    background-color: #c8c7ff;
+}
+
+H1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18pt;
+    text-align: center;
+}
+
+A:active {
+    COLOR: #800000;
+}
+
+A:hover {
+    COLOR: #800000;
+    cursor: crosshair;
+    border-style: double;
+    border-color: #800000;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 5px;
+    border-left-width: 0px;
+}
+
+A:link {
+    color: #800000;
+}
+
+A:visited {
+    color: #cc0000;
+}
