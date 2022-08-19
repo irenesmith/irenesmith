@@ -1,0 +1,31 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #234047;
+    background-color: #a8c4c8;
+    background-image: url(lesson16/bkg1.jpg);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+p {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+A:active {
+    COLOR: #cc0000;
+}
+
+A:hover {
+    COLOR: #cc0000;
+
+}
+
+A:link {
+    COLOR: #cc0000;
+}
+
+A:visited {
+    COLOR: #cc00cc;
+}

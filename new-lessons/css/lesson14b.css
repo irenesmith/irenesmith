@@ -1,0 +1,66 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #ffff80;
+    background-color: #999999;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+td {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #ffff80;
+}
+
+.toprow {
+    background-image: url(lesson14/top.jpg);
+    height: 150px;
+}
+
+.middlerow {
+    background-image: url(lesson14/middle.jpg);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.bottomrow {
+    background-image: url(lesson14/bottom.jpg);
+    height: 175px;
+}
+
+.contenttable {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    width: 600px;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18pt;
+    text-align: center;
+}
+
+a:active {
+    color: #ffc0ff;
+}
+
+a:hover {
+    color: #ffc0ff;
+    cursor: crosshair;
+}
+
+a:link {
+    color: #ffc0ff;
+}
+
+a:visited {
+    color: #ffffc0;
+}
+
+.linklist {
+    font-size: 12pt;
+    text-align: center;
+}

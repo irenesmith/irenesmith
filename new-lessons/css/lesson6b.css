@@ -1,0 +1,28 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #f0dec6;
+    background-color: #292011;
+    background-image: url(lesson6/sqr_top.jpg);
+    background-repeat: repeat-x;
+    margin-top: 110px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+A:link {
+    color: #873519;
+}
+
+A:visited {
+    color: #b19353;
+}
+
+A:hover {
+    color: #873519;
+
+}
+
+A:active {
+    color: #873519;
+}

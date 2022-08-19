@@ -1,52 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Portfolio Lesson 13 - Image & Button Mouseovers</title>
 
-	<link rel="stylesheet" href="lesson13/lesson13.css">
+	<link rel="stylesheet" href="css/lesson13.css">
 </head>
 
 <body onLoad="PreLoadImages()">
-	<div id="content"> 
-		<img id="title" src="lesson13/title_off.jpg" name="title" onmouseover="turnOn('title')" onmouseout="turnOff('title')"  alt="Lesson 13 - Image & Button Mouseovers">
+	<div id="content">
+		<img id="title" src="lesson13/title_off.jpg" name="title" onmouseover="turnOn('title')"
+			onmouseout="turnOff('title')" alt="Lesson 13 - Image & Button Mouseovers">
 		<p>
-			Lesson 13 is all about mouseovers. What is a mouseover? A mouseover is when 
+			Lesson 13 is all about mouseovers. What is a mouseover? A mouseover is when
 			the graphics on a page change when the <i>mouse</i> passes <i>over</i> them.
 			It does this using JavaScript code that handles the <code>mouseover</code>
 			and <code>mouseout</code> events. For more information about responding to
 			mouse events in JavaScript, take a look at the list of
 			<a href='https://developer.mozilla.org/en-US/docs/Web/API/Element#Mouse_events'>Mouse
-			Events</a> on <a href='developer.mozilla.org'>MDN Web docs</a>.
+				Events</a> on <a href='developer.mozilla.org'>MDN Web docs</a>.
 		</p>
 		<p>
-			If you want to see an example, try moving the mouse over the title graphic 
-			and watch what happens. Using mouseovers does more than add a little animation 
-			to your page too. Mouseovers can be used to provide feedback or more information 
+			If you want to see an example, try moving the mouse over the title graphic
+			and watch what happens. Using mouseovers does more than add a little animation
+			to your page too. Mouseovers can be used to provide feedback or more information
 			to visitors.
 		</p>
 		<p>
-			You'll notice that the buttons on this page also change when you point at 
-			them with the mouse. In all cases, the mouseover effect on this page 
-			was created by using two images, one for the regular state of the graphic 
-			and the other for when the mouse pointer is over it. JavaScript code takes 
-			care of swapping the images when the mouse pointer enters or leaves 
+			You'll notice that the buttons on this page also change when you point at
+			them with the mouse. In all cases, the mouseover effect on this page
+			was created by using two images, one for the regular state of the graphic
+			and the other for when the mouse pointer is over it. JavaScript code takes
+			care of swapping the images when the mouse pointer enters or leaves
 			the screen space over the graphic.
 		</p>
 		<p>
-			There was something about this background color that made me think 
-			of the chalkboards they used to have in some classrooms. They weren't 
+			There was something about this background color that made me think
+			of the chalkboards they used to have in some classrooms. They weren't
 			black, they were a sort of blue-green, so I found a font that looks
 			like writing with chalk and voila!
 		</p>
 		<img class="bar" src="lesson13/bar.jpg" alt="">
 		<nav>
-			<a href="lesson12.html" onMouseOver="turnOn('back')" onMouseOut="turnOff('back')"><img class="btn" id="back" class="btn" src="lesson13/back_off.jpg" name="back" alt="Back"></a>
-			<a href="index.html" onMouseOver="turnOn('home')" onMouseOut="turnOff('home')"><img class="btn" id="home" src="lesson13/home_off.jpg" name="home" alt="Home"></a>
-			<a href="lesson14.html" onMouseOver="turnOn('next')" onMouseOut="turnOff('next')"><img class="btn" id="next" src="lesson13/next_off.jpg" name="next" alt="Next"></a>
-			<a href="mailto:webmaster@irenesmith.com" onMouseOver="turnOn('email')" onMouseOut="turnOff('email')"><img class="btn" id="email" src="lesson13/email_off.jpg" name="email" alt="E-Mail"></a>
+			<a href="lesson12.html" onMouseOver="turnOn('back')" onMouseOut="turnOff('back')"><img class="btn" id="back"
+					class="btn" src="lesson13/back_off.jpg" name="back" alt="Back"></a>
+			<a href="index.html" onMouseOver="turnOn('home')" onMouseOut="turnOff('home')"><img class="btn" id="home"
+					src="lesson13/home_off.jpg" name="home" alt="Home"></a>
+			<a href="lesson14.html" onMouseOver="turnOn('next')" onMouseOut="turnOff('next')"><img class="btn" id="next"
+					src="lesson13/next_off.jpg" name="next" alt="Next"></a>
+			<a href="mailto:webmaster@irenesmith.com" onMouseOver="turnOn('email')" onMouseOut="turnOff('email')"><img
+					class="btn" id="email" src="lesson13/email_off.jpg" name="email" alt="E-Mail"></a>
 		</nav>
 		<img class="bar" src="lesson13/bar.jpg" alt="">
 		<footer>
@@ -58,4 +64,5 @@
 	<!-- End of content -->
 	<script src="js/onOff.js"></script>
 </body>
+
 </html>
